@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:opsz,wght@6..96,900&display=swap" rel="stylesheet">
+
+
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome icon -->
+    <script src="https://kit.fontawesome.com/0267d3da52.js"></script>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <section id="landing-section">
+        <nav>
+            <div class="container">
+                <div class="title">
+                    <h1>Tulasi</h1>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="li1">HOME</li>
+                        <li class="li2">PRICE</li>
+                        <li class="li3">CONTACT</li>
+                        <li class="li4">ABOUT US</li>
+                    </ul>
+                </div>
+            
+                <div class="hamburger-menu" >
+                    <i class="fa-solid fa-bars" id="ham" onclick="myFunction()"></i>
+                </div>
+                <div class="btn">
+                    <button id="login">Login</button>
+                </div>
+               
+            </div>
+          
+        </nav>
+        <div >
+            <ul class="hamburger-list"id="ham-nav">
+                <li>HOME</li>
+                <li>PRICE</li>
+                <li>CONTACT</li>
+                <li>ABOUT US</li>
+            </ul>
+        </div>
+        <!-------landing page ----------->
+        <div class="landing-page">
+            <div class="main-heading">
+        
+                <h1>MK WATCHES</h1>
+                <h3>Luxury watches hand-crafted for you.</h3>
+                <button class="getstarted">Vist our store</button>
+                <hr width="" style="margin-left: 0px; border: 2px solid gray;">
+            </div>
+            <img src="images/landing2.avif" alt="" class="phn">
+    </section>
+        
+       
+    </div>
+    <div class="description">
+        <h2 class="description-h2">Our watch collections</h2>
+        <p>Explore the MK collection of prestigious, high-precision timepieces.</p>
+
+    </div>
+    <!-- Watches -->
+    <div class="watch-container">
+        <div class="img1">
+            <img src="images/watch1.jpeg" alt="" class="watch1">
+            <h4>Timex</h4>
+            <button class="price-btn">$200</button>
+        </div>
+        <div class="img2">
+            <img src="images/watch2.jpeg" alt="" class="watch2">
+            <h4>Tissot</h4>
+            <button class="price-btn">$300</button>
+        </div>
+        <div class="img3">
+            <img src="images/watch7.jpeg" alt="" class="watch3">
+            <h4>Swatch</h4>
+            <button class="price-btn">$400</button>
+        </div>
+        <div class="img4">
+            <img src="images/watch4.jpeg" alt="" class="watch4">
+            <h4>Casio</h4>
+            <button class="price-btn">$500</button>
+        </div>
+        <div class="img5">
+            <img src="images/watch5.jpeg" alt="" class="watch5">
+            <h4>Orient</h4>
+            <button class="price-btn">$600</button>
+        </div>
+        <div class="img6">
+            <img src="images/watch6.jpeg" alt="" class="watch6">
+            <h4>Cartier</h4>
+            <button class="price-btn">$700</button>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <hr style="margin-top: 30px;">
+    <h2 class="testimonial-h2">Our Watches Owners</h2>
+    <p style="text-align: center; "><em>We are a <strong>proud company</strong>.</em></p>
+    <div class="testimonials">
+        <div class="testimonial-a">
+            
+            <img src="images/ronaldo.webp" alt="" id="ronaldo">
+            <h3>Cristiano Ronaldo</h3>
+            <p class="testimonial-info">Portuguese football player who is also known as one of the greatest player of all time.</p>
+        </div>
+        <div class="testimonial-b"> 
+            
+            <img src="images/elon3.jpeg" alt="" id="elon">
+            <h3>Elon Musk</h3>
+            <p class="testimonial-info">The richest man in the world born in Africa who is the CEO of Tesla and Spacex.</p>
+        </div>
+        <div class="testimonial-c">
+            
+            <img src="images/mark.jpeg" alt="" id="mark">
+            <h3>Mark Zuckerberg</h3>
+            <p class="testimonial-info"> Mark Zuckerberg is an American business magnate. He is the founder of social media Facebook.
+            </p>
+        </div>
+    </div>
+
+
+
+    <!-- Login page -->
+    <div class="login-page">
+        <h3>Login </h3>
+        <div class="login-form">
+        
+            <form action="">
+                <div class="email">
+                    <label for="email" >Email</label> <br>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                </div>
+                <div class="password">
+                    <label for="password" >Password</label> <br>
+                    <input type="password" id="password" name="password" placeholder="your password">
+                </div>
+                <div class="checkbox">
+                 <label for="remember-me">
+                 <input type="checkbox"> Remember me</label>
+                 <a href="" class="forgot-password">Forgot password?</a>
+                </div>
+                <button class="login-btn">Login</button>
+                <p class="registeration">Not registered yet? <a href="#">Create an Account</a></p>
+            </form>
+            
+            
+        </div>  
+    </div>
+    <!-- Footer -->
+    
+        <footer >
+            
+                <div id="footer">
+                    <div class="icon">
+                        <i class="fa-sharp fa-solid fa-layer-group fa-4x" ></i>
+                    </div>
+                    <div class="about-brand">
+                        <h4>TULASI</h4>
+                        <p>Home</p>
+                        <p>Get in touch</p>
+                        <p>FAQs</p>
+                    </div>
+                    <div class="about-product">
+                        <h4>PRODUCT</h4>
+                        <p>Testimonials</p>
+                        <p>How it works</p>
+                        <p>Members Discount</p>
+                    </div>
+                    <div class="join-mail">
+                        <h4>NOT QUITE READY FOR LUXURY ?</h4>
+                        <p>Join out online community for free.</p>
+                        <input type="email" id="email" class="email-input">
+                        <input type="submit" value="SUBSCRIBE" id="email" class="subscribe-btn">
+                    </div>
+                </div>
+        </footer>
+    <script src="toggle.js/script.js"></script>
+</body>
+</html>
