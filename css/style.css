@@ -79,10 +79,10 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items:center;
-    
+   
 }
 .description {
-    margin-top: 180px;
+    margin-top: 210px;
     margin-bottom: 60px;
     text-align: center;
 }
