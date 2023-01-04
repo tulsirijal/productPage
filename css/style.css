@@ -1,0 +1,485 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 6px;
+
+}
+.nav-list ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    text-decoration: none;
+}
+div ul li{
+list-style: none;
+font-family: 'Lato', sans-serif;
+}
+div ul li:hover {
+    color: #6C00FF;
+    cursor: pointer;
+}
+.hamburger-menu {
+    display: none;
+}
+.hamburger-list {
+    opacity: 0;
+}
+#login {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:white ;
+    color: black;
+    border-radius: 10px;
+    font-size: small;
+    border: 1px solid;
+    border-color: rgba(113, 124, 144, 1);
+    outline: none;
+}
+#login:hover{
+    background-color: #6C00FF;
+    color: white;
+    cursor: pointer;
+    
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+}
+.getstarted {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    color: blue;
+    border: 1px;
+}
+.getstarted:hover {
+    background-color: #645CAA;
+}
+.landing-page {
+    margin-left: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    
+}
+.description {
+    margin-top: 180px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.description-h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+.phn {
+    width: 40%;
+    text-align: center;
+
+}
+/* watches */
+.watch-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.watch1{
+    width: 300px;
+    height: 200px;
+    
+}
+.watch2{
+    width: 300px;
+    height: 200px;
+}
+.watch3{
+    width: 300px;
+    height: 200px;
+}
+.watch4{
+    width: 300px;
+    height: 200px;
+}
+.watch5{
+    width: 300px;
+    height: 200px;
+}
+.watch6{
+    width: 300px;
+    height: 200px;
+}
+.img1 {
+    
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: rgba(219, 224, 233, 1);
+    background-color: #dee8e733;
+}
+.img2 {
+    
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: rgba(219, 224, 233, 1);
+    background-color: #dee8e733;
+}
+.img3 {
+    
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: rgba(219, 224, 233, 1);
+    background-color: #dee8e733;
+}
+.img4 {
+    
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: rgba(219, 224, 233, 1);
+    background-color: #dee8e733;
+}
+.img5{
+    
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: rgba(219, 224, 233, 1);
+    background-color: #dee8e733;
+}
+.img6 {
+    
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: rgba(219, 224, 233, 1);
+    background-color: #dee8e733;
+}
+
+.price-btn {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgba(113, 124, 144, 1);
+}
+.price-btn:hover {
+    background-color:#579BB1 ;
+    border: none;
+}
+h4 {
+    margin-bottom: 4px;
+}
+/* Testimonials */
+.testimonials {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 2rem;
+    padding: 50px;
+   
+}
+h3 {
+    color: black;
+}
+.testimonial-h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 64px;
+    margin-bottom: 0;
+}
+.testimonial-info {
+    color: rgba(113, 124, 144, 1);;
+}
+.testimonial-a {
+    width: 20%;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    line-height: 1.7;
+    border: 1px solid;
+    border-color: rgba(219, 224, 233, 1);
+    
+}
+.testimonial-b {
+    width: 20%;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    line-height: 1.7;
+    border: 1px solid;
+    border-color: rgba(219, 224, 233, 1);;
+    
+}
+.testimonial-c {
+    width: 20%;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    line-height: 1.7;
+    border: 1px solid;
+    border-color: rgba(219, 224, 233, 1);;
+    
+}
+#ronaldo {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+#elon {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+#mark {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+
+
+
+
+/* Login page */
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+    
+    
+
+}
+.login-page {
+    margin-top: 50px;
+    text-align: center;
+}
+.email {
+    margin-bottom: 5px;
+}
+.email input ,
+.password input{
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    border: 1px solid;
+    width: 100%;
+}
+.checkbox {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 8px;
+   
+}
+.login-btn {
+    margin-top: 18px;
+    width: 100%;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #6C00FF;
+    border: 1px ;
+    color: white;
+}
+
+.login-btn:hover {
+    color: black;
+}
+.registeration {
+    margin-top: 13px;
+   
+}
+/* Footer */
+#footer {
+    width: 100%;
+    padding: 40px;
+    margin-top: 20px;
+    background-color: #243763;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#footer p {
+    color: rgba(255, 255, 255, 1);
+}
+#footer p:hover {
+    color: #6C00FF;
+}
+
+.subscribe-btn {
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    background-color: red;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 5px;
+}
+.subscribe-btn:hover {
+    color: black;
+}
+.email-input {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+@media (max-width:700px) {
+    .container{
+        margin-top: 10px;
+    }
+    .nav-list ul {
+        display: none;
+    }
+    .landing-page {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 0px;
+    }
+    #login {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+        margin-left: 350px;
+    }
+    .ham-nav-list{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+        opacity: 100;
+      
+    }
+    .phn {
+        width: 75%;
+        margin-bottom: 30px;
+    }
+       
+    hr {
+        width: 60%;
+    }
+  
+}
+@media (max-width:800px) {
+    #footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+      
+        
+    }
+}
+
+ 
+
+@media (max-width:640px) {
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        
+        align-items: baseline;
+    }
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonial-a {
+        width: 100%;
+    }
+    .testimonial-b {
+        width: 100%;
+    }
+    .testimonial-c {
+        width: 100%;
+    }
+}
+@media (max-width:540px) {
+    .hamburger-menu {
+        margin-left: 290px;
+    }
+}
+
+
+@media (max-width:420px) {
+    .phn {
+        margin-right: 40px;
+        width: 290px;
+    }
+    .main-heading {
+        margin-right: 30px;
+    }
+    #footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .hamburger-menu {
+        margin-left: 160px;
+    }
+ 
+
+}
+
+
+
+
+
