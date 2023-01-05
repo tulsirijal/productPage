@@ -5,6 +5,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    background-color: transparent;
 }
 
 
@@ -379,7 +380,11 @@ h3 {
     padding-bottom: 5px;
 }
 
-
+@media (max-width:1024px) {
+    h1 {
+        font-size: 32px;
+    }
+}
 @media (max-width:700px) {
     .container{
         margin-top: 10px;
@@ -415,6 +420,9 @@ h3 {
        
     hr {
         width: 60%;
+    }
+    .testimonial-h2 {
+        font-size: 32px;
     }
   
 }
