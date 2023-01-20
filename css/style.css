@@ -5,7 +5,6 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-    background-color: transparent;
 }
 
 
@@ -140,58 +139,13 @@ h1 {
     border-radius: 20px;
     border-color: rgba(219, 224, 233, 1);
     background-color: #dee8e733;
+    transition: all 1s;
 }
-.img2 {
+.img1:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 1rem black);
     
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid;
-    border-radius: 20px;
-    border-color: rgba(219, 224, 233, 1);
-    background-color: #dee8e733;
 }
-.img3 {
-    
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid;
-    border-radius: 20px;
-    border-color: rgba(219, 224, 233, 1);
-    background-color: #dee8e733;
-}
-.img4 {
-    
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid;
-    border-radius: 20px;
-    border-color: rgba(219, 224, 233, 1);
-    background-color: #dee8e733;
-}
-.img5{
-    
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid;
-    border-radius: 20px;
-    border-color: rgba(219, 224, 233, 1);
-    background-color: #dee8e733;
-}
-.img6 {
-    
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid;
-    border-radius: 20px;
-    border-color: rgba(219, 224, 233, 1);
-    background-color: #dee8e733;
-}
-
 .price-btn {
     margin-bottom: 20px;
     padding-left: 15px;
@@ -210,6 +164,28 @@ h4 {
     margin-bottom: 4px;
 }
 /* Testimonials */
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+    filter: blur(1px);
+    transition:all 0.3s ;
+}
+.show {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+    transition:all 1s ;
+}
+.testimonial-a:nth-child(2){
+    transition-delay: 200ms;
+}
+.testimonial-a:nth-child(3){
+    transition-delay: 400ms;
+}
+.testimonial-a:nth-child(4){
+    transition-delay: 600ms;
+}
+
 .testimonials {
     display: flex;
     justify-content:center;
@@ -242,79 +218,51 @@ h3 {
     line-height: 1.7;
     border: 1px solid;
     border-color: rgba(219, 224, 233, 1);
+    transition: all 1s;
     
 }
-.testimonial-b {
-    width: 20%;
-    padding-top: 55px;
-    padding-bottom: 55px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-bottom-left-radius: 12px;
-    border-top-right-radius: 12px;
-    line-height: 1.7;
-    border: 1px solid;
-    border-color: rgba(219, 224, 233, 1);;
-    
+.testimonial-a:hover {
+    transform: scale(1.1);
 }
-.testimonial-c {
-    width: 20%;
-    padding-top: 55px;
-    padding-bottom: 55px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-bottom-left-radius: 12px;
-    border-top-right-radius: 12px;
-    line-height: 1.7;
-    border: 1px solid;
-    border-color: rgba(219, 224, 233, 1);;
-    
-}
-#ronaldo {
+
+
+.ronaldo {
     width: 60px;
     height: 60px;
     border-radius: 100%;
 }
-#elon {
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-}
-#mark {
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-}
-
-
-
-
 
 /* Login page */
 .login-form {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: left;
-    padding: 10px;
-    
-    
-
+    align-items: left;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: white;
+    transform: scale(1.2);
+    border-color: rgba(219, 224, 233, 1);
 }
 .login-page {
-    margin-top: 50px;
-    text-align: center;
+    margin: 80px auto;
 }
 .email {
     margin-bottom: 5px;
 }
+
 .email input ,
 .password input{
     margin-top: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 15px;
     border: 1px solid;
+    border-radius: 5px;
+    border-color: rgba(219, 224, 233, 1);
+    
     width: 100%;
 }
 .checkbox {
@@ -340,8 +288,7 @@ h3 {
     color: black;
 }
 .registeration {
-    margin-top: 13px;
-   
+    margin: 13px ;
 }
 /* Footer */
 #footer {
